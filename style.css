@@ -1,0 +1,267 @@
+
+* {
+    margin: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+header {
+    margin-top: 57px;
+}
+.header-top {
+    width: 1105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.menu {
+    list-style: none;
+    width: 611px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu a {
+    text-decoration:none;
+    color: black;
+    font-size:16px;
+    transition: 0.5s;
+}
+.menu a:hover {
+    color: #34547A;
+    font-weight: bold;
+}
+.text {
+    width: 541px;
+    height: 297px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between; /* это Y который был X */
+}
+.text p {
+    color: #727272;
+}
+.header-content {
+    display: flex;
+    width: 1028px;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 140px;
+}
+.text button {
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    color: white;
+    font-size: 16px;
+    border: 0;
+}
+.text2 {
+    width: 540px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+.text2 p {
+    text-align: center;
+    color: #727272;
+}
+p {
+    font-size: 16px;
+}
+.about {
+    width: 1028px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 192px;
+}
+.projects {
+    background-color: #34547A;
+    height: 250px;
+    margin-top: 100px;
+}
+.projects-inner {
+    width: 1091px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.projects-content {
+    display: flex;
+    width: 141px;
+    justify-content: space-between;
+}
+.projects-content p {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.skills-content {
+    width: 1105px;
+    margin: auto;
+    padding-top: 102px;
+    display: flex;
+    justify-content: space-between;
+}
+.line {
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+    margin-top: 20px;
+}
+.programs {
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #727272;
+}
+.inner {
+    width: 349.36px;
+    height: 4px;
+    background-color: #34547A;
+}
+.programs-face {
+    width: 555px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.skills {
+    height: 653px;
+}
+.skills-programs {
+    height: 257px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 204px;
+}
+.how-work {
+    width: 403px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: auto;
+    padding:100px;
+}
+.work {
+    height: 1004px;
+    background-color: #EEEFF1;
+    text-align: center;
+    margin: 0;
+}
+.text-list {
+    width: 540px;
+    height: 67px;
+    padding: 50px;
+    flex-direction: column;
+    color: #727272;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: auto;
+    padding-top: 57px;
+}
+.video img {
+    width: 1110px;
+}
+.picture {
+    height: 960px;
+    margin-top: 28px;
+}
+.picture-content {
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 0 auto;
+}
+.picture-content img {
+    width: 480px;
+    height: 480px;
+}
+.microsoft-inner {
+    width: 1100px;
+    display: flex;
+    margin: auto;
+    padding-top: 72px;
+}
+.microsoft {
+    height: 292px;
+}
+.want {
+    background-color: #EEEFF1;
+    height: 762px;
+    text-align: center;
+    margin: 0;
+} 
+.want-web-site {
+    padding: 100px;
+}
+.text-want {
+    padding-top: 50px;
+    color: #727272;
+}
+.input {
+    width: 255px;
+    height: 50px;
+    font-size: 14px;
+    border: 0;
+}
+.name-email {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 65px;
+}
+.input2 {
+    width: 540px;
+    height: 175px;
+    border: 0;
+    margin-top: 20px;
+}
+.button-bottom {
+    width: 190px;
+    height: 55px;
+    background-color: #34547A;
+    border: 0;
+    color: white;
+}
+.button-mother {
+    margin-top: 50px;
+}
+.basement {
+    height: 151px;
+    background-color: #34547A;
+}
+.basement-inner {
+    width: 1125px;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+}
+.basement-content {
+    width: 193px;
+    color: white;
+}
+.basement-content p {
+    font-size: 13px;
+    padding-top: 20px;
+}
+.basement-content h3 {
+    font-size: 23px;
+}
